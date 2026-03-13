@@ -71,9 +71,9 @@ app.get('/blogpost', (req, res) => {
     res.render('blogpost');
 });
 
-// app.get('/dashboard', (req, res) => {
-//     res.render('dashboard');
-// });
+app.get('/dashboard', (req, res) => {
+    res.render('dashboard');
+});
 
 app.get('/schedule-pickup', (req, res) => {
     res.render('schedule-pickup');
